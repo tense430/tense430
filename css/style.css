@@ -6,9 +6,9 @@ a:link {
     color: tomato;
 }
 
-/* a:visited {
-    color: blue;
-} */
+a:visited {
+    color: tomato;
+}
 
 a:hover {
     background-color: lightgreen;
