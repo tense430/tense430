@@ -5,14 +5,70 @@ body {
   background-image: url(images/bg.png);
 }
 
+header {
+  padding: 10px 0;
+}
+
+header h1 {
+  font-size: 24px;
+  font-weight: bolder;
+  text-align: center;
+}
+
 header nav ul {
   display: flex;
   flex-wrap: wrap;
-  justify-content: flex-start;
+  justify-content: center;
+  margin: 10px 0;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  padding: 10px 0;
 }
 
-header nav ul li {
-  margin-right: 20px;
+header nav ul li a {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0 10px;
+}
+
+aside nav ul li a {
+  font-size: 16px;
+}
+
+aside nav ul li {
+  margin: 5px 0;
+}
+
+main h2 {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: left;
+  margin: 10px auto;
+}
+
+main table {
+  margin: 10px auto;
+}
+
+main table,
+main table th,
+main table td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+main table th,
+main table td {
+  padding: 10px;
+}
+
+main table thead th {
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  color: gray;
 }
 
 a:link {
