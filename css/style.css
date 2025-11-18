@@ -1,11 +1,18 @@
+@charset "UTF-8";
+
 body {
   font-family: "Meiryo", "Noto Sans JP", sans-serif;
+  background-image: url(images/bg.png);
 }
 
-ul {
+header nav ul {
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
+}
+
+header nav ul li {
+  margin-right: 20px;
 }
 
 a:link {
