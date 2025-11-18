@@ -1,15 +1,21 @@
 body {
-    font-family: 'Meiryo', 'Noto Sans JP', sans-serif;
+  font-family: "Meiryo", "Noto Sans JP", sans-serif;
+}
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
 }
 
 a:link {
-    color: tomato;
+  color: tomato;
 }
 
 a:visited {
-    color: tomato;
+  color: tomato;
 }
 
 a:hover {
-    background-color: lightgreen;
+  background-color: lightgreen;
 }
