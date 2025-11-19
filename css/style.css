@@ -119,3 +119,18 @@ main {
 aside {
   flex-basis: 185px;
 }
+
+.quickNav ul li {
+  list-style-type: circle;
+  margin: 0 0 5px 20px;
+}
+
+.recentNav ul li {
+  list-style-type: disc;
+  margin: 0 0 5px 20px;
+}
+
+.recentNav ul {
+  height: 120px;
+  overflow: hidden scroll;
+}
