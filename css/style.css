@@ -12,6 +12,10 @@ body {
   background-image: url(images/bg.png);
 }
 
+p {
+  line-height: 1.6;
+}
+
 header {
   /* padding: 10px 0; */
   width: 800px;
