@@ -53,7 +53,7 @@ header nav ul li a {
 
 aside nav {
   margin-bottom: 2em;
-  background-color: lightgoldenrodyellow;
+  background-color: #f9efe3;
   border-radius: 16px;
   padding: 16px;
   box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.2);
@@ -127,7 +127,7 @@ div {
 
 main {
   flex-basis: 600px;
-  background-color: lightgoldenrodyellow;
+  background-color: #f9efe3;
   border-radius: 16px;
   padding: 16px;
   box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.2);
