@@ -9,7 +9,7 @@
 
 body {
   font-family: "M PLUS 1 Code", monospace;
-  background-image: url(images/bg.png);
+  background-image: url("../images/bg.png");
 }
 
 p {
