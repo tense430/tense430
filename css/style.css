@@ -16,25 +16,25 @@ p {
   line-height: 1.6;
 }
 
-header {
+header .guidePage {
   /* padding: 10px 0; */
   width: 800px;
   margin: 1em auto;
 }
 
-header img {
+header .guidePage img {
   display: block;
   margin: 0 auto 10px;
 }
 
-header h1 {
+header .guidePage h1 {
   font-size: 30px;
   font-weight: bolder;
   text-align: center;
   color: dimgray;
 }
 
-header nav ul {
+header .guidePage nav ul {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -45,7 +45,7 @@ header nav ul {
   width: 800px;
 }
 
-header nav ul li a {
+header .guidePage ul li a {
   font-size: 16px;
   font-weight: 600;
   margin: 0 10px;
